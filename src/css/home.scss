@@ -1,0 +1,32 @@
+div.jumbotron {
+    background-color: transparent;
+    margin-top: 20vh;
+
+    @media (max-width: 768px) {
+        background-color: #e9ecef;
+        bottom: 0;
+        margin-bottom: 0;
+        position: absolute;
+        width: 100%;
+    }
+
+    h1.jumbotron-header {
+        font-family: Hiragino Kaku Gothic;
+        font-weight: 700;
+    }
+
+    & > div.links-container > p {
+        display: inline-block;
+        margin-right: 5px;
+
+        &:not(:last-child):after {
+            color: gray;
+            content: '|';
+            margin-left: 5px;
+        }
+
+        & > a {
+            color: #ff0000;
+        }
+    }
+}

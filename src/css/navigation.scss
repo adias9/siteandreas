@@ -1,3 +1,26 @@
-div.jumbotron {
-    
+nav.navbar {
+    // background-color: rgba(233, 236, 239, 0.50);
+
+    div.navbar-collapse {
+        ul.navbar-nav {
+            li.nav-item {
+
+                & > a {
+                    color: #ff0000;
+
+                    &:hover {
+                        color: rgba(255,0,0,.4);
+                    }
+                }
+
+                &.active > a {
+                    color: rgba(0,0,0,.7);
+
+                    &:hover {
+                        color: rgba(0,0,0,.5);
+                    }
+                }
+            }
+        }
+    }
 }
