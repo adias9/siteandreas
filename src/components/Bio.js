@@ -15,8 +15,8 @@ const InfoSection = props => {
     );
 }
 
-const About = () => (
-    <div className="about container">
+const Bio = () => (
+    <div className="bio container">
         <div className="img-container col-lg-4 align-top">
             <img className="img-fluid" alt="andreas-headshot" src={headshot} />
         </div>
@@ -47,4 +47,4 @@ const About = () => (
     </div>
 )
 
-export default About
+export default Bio

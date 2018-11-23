@@ -52,7 +52,7 @@ class Navigation extends React.Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <NavItem path="/" name="home" />
-            <NavItem path="/about" name="about" />
+            <NavItem path="/bio" name="bio" />
             <NavItem path="/projects" name="projects" />
           </ul>
         </div>
