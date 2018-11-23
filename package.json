@@ -5,7 +5,6 @@
   "dependencies": {
     "aframe": "^0.8.2",
     "aframe-animation-component": "^5.1.2",
-    "aframe-outline": "^1.1.1",
     "aframe-particle-system-component": "^1.1.0",
     "aframe-react": "^4.4.0",
     "bootstrap": "^4.1.3",

@@ -1,6 +1,5 @@
 import 'aframe';
 import 'aframe-particle-system-component';
-import 'aframe-outline';
 import 'aframe-animation-component';
 import {Entity, Scene} from 'aframe-react';
 import React from 'react';
