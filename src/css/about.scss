@@ -1,7 +1,7 @@
 div.about {
-    // background-color: #EEDADA;
     margin-top: 100px;
     text-align: right;
+    text-transform: lowercase;
 
     a {
         color: red;
@@ -9,15 +9,38 @@ div.about {
 
     div.text-container {
         display: inline-block;
-        padding: 0 4rem;
+        padding: 4rem 0;
     }
 
     div.img-container {
         display: inline-block;
-        // padding-right: 4em;
+
+        &:before {
+            content: '';
+            height: 90%;
+            width: 90%;
+            background-color: red;
+            position: absolute;
+            left: 0;
+            top: -8%;
+            z-index: -1;
+        }
     }
 
     div.additional-container {
-        text-align: left;
+
+        h3 {
+            // font-family: ;
+            font-size: 15px;
+            font-style: italic;
+            margin: 0;
+        }
+
+        ul {
+            font-family: Lato;
+            font-size: 14px;
+            list-style-type: none;
+            padding: 0;
+        }
     }
 }
