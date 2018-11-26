@@ -6,6 +6,7 @@ import Projects from './Projects'
 import NoMatch from './NoMatch'
 import '../css/home.scss'
 import '../css/bio.scss'
+import '../css/projects.scss'
 import '../css/nomatch.scss'
 
 const Main = () => (
