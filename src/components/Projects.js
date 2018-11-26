@@ -93,7 +93,7 @@ const Projects = () => {
                 </Card>
                 <Card>
                     <CardImage src={sophthrive_img} alt="Presentation Logo" />
-                    <CardBlock title="Design Consulting Project: VP of Princeton" text="Goal: Reduce Stigma at Princeton. Redesigned the sophomore experience to better inform and guide Princeton students throughout the rest of their Princeton experience.">
+                    <CardBlock title="Design Consulting for Princeton Administration" text="Goal: Reduce Stigma at Princeton. Redesigned the sophomore experience to better inform and guide Princeton students throughout the rest of their Princeton experience.">
                         <CardButton title="See The Presentation" type="btn-primary" link="https://drive.google.com/file/d/0B7liA7zyqDeVTXhnaFBCR2l2Ym8/view?usp=sharing" />
                     </CardBlock>
                 </Card>
@@ -116,9 +116,9 @@ const Projects = () => {
                     </CardBlock>
                 </Card>
                 <Card>
-                    <CardImage src="" alt="Cartful Logo" />
-                    <CardBlock title="Cartful" text="A startup I worked on for two years. Stumbleupon for fashion and one of my most prolific projects.">
-                        <CardButton title="Learn More" type="btn-primary" link="https://drive.google.com/file/d/0B8sLz00nfoNvU0dpSWR2ZjFRaU0/view?usp=sharing" />
+                    <CardImage src="" alt="Ripple Logo" />
+                    <CardBlock title="Ripple" text="Ripple is a web application that allows users to message experts in their field of interest in a group format, paralleling the amiable atmosphere of a reception after an event or talk.">
+                        <CardButton title="Learn More" type="btn-primary" link="https://github.com/adias9/Ripple" />
                     </CardBlock>
                 </Card>
             </CardDeck>
