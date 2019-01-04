@@ -1,4 +1,5 @@
 import React from 'react'
+import pcb_img from '../images/pcb_logo.png';
 import clever_img from '../images/clever_logo.png';
 import loco_img from '../images/loco_logo.png';
 import cartful_img from '../images/cartful_logo.jpg';
@@ -74,6 +75,12 @@ const Projects = () => {
         <div className="projects container">
             <CardDeck>
                 <Card>
+                    <CardImage src={pcb_img} alt="Pensacola Beach Casa" />
+                    <CardBlock title="Pensacola Beach Casa" text="A web freelance project I completed redesigning the webpage for a beach town home.">
+                        <CardButton title="Learn More" type="btn-primary" link="http://34.226.194.6" />
+                    </CardBlock>
+                </Card>
+                <Card>
                     <CardImage src={clever_img} alt="CleverOgre Logo" />
                     <CardBlock title="CleverOgre Web Agency" text="Here are a few case studies that include some of the work I've done for CleverOgre.">
                         <CardButton title="Learn More" type="btn-primary" link="https://cleverogre.com/them/" />
@@ -98,25 +105,16 @@ const Projects = () => {
                     </CardBlock>
                 </Card>
                 <Card>
-                    <CardImage src="" alt="Wikiscrape Logo" />
                     <CardBlock title="Wikiscrape" text="Building a scraper and visualizer to measure and illustrate the connectivity of different Wikipedia pages">
                         <CardButton title="Learn More" type="btn-primary" link="https://github.com/adias9/wikiscrape" />
                     </CardBlock>
                 </Card>
                 <Card>
-                    <CardImage src="" alt="Prospect12 Logo" />
-                    <CardBlock title="Prospect12" text="An app to meet people and find your friends when you're out on the town @ Princeton.">
-                        <CardButton title="Learn More" type="btn-primary" link="" />
-                    </CardBlock>
-                </Card>
-                <Card>
-                    <CardImage src="" alt="Echtchange Logo" />
                     <CardBlock title="Echtchange" text="Echt meaning fair. Was a website to make buying, selling, and delivering different items between students at Princeton easier.">
-                        <CardButton title="Learn More" type="btn-primary" link="" />
+                        <CardButton title="Learn More" type="btn-primary" link="https://github.com/adias9/echtchange" />
                     </CardBlock>
                 </Card>
                 <Card>
-                    <CardImage src="" alt="Ripple Logo" />
                     <CardBlock title="Ripple" text="Ripple is a web application that allows users to message experts in their field of interest in a group format, paralleling the amiable atmosphere of a reception after an event or talk.">
                         <CardButton title="Learn More" type="btn-primary" link="https://github.com/adias9/Ripple" />
                     </CardBlock>
