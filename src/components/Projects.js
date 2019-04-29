@@ -4,6 +4,10 @@ import clever_img from '../images/clever_logo.png';
 import loco_img from '../images/loco_logo.png';
 import cartful_img from '../images/cartful_logo.jpg';
 import sophthrive_img from '../images/sophthrive.png';
+import atomic_img from '../images/atomic.png';
+import bridgestone_img from '../images/bridgestone.png';
+import foxy_img from '../images/foxy_vacations.png';
+import bright_img from '../images/MIT_ML.png';
 
 const CardButton = props => {
     const title = props.title;
@@ -75,9 +79,39 @@ const Projects = () => {
         <div className="projects container">
             <CardDeck>
                 <Card>
+                    <CardImage src={atomic_img} alt="Atomic Capital" />
+                    <CardBlock title="" text="Front-end engineering, UI/UX, and general company design requests for the dashboard platform offering Digital Security Issuance to both private and publicly traded companies as well as Cryptocurrency Collateralized Loans.">
+                        <CardButton title="Learn More" type="btn-primary" link="https://atomiccapital.io" />
+                    </CardBlock>
+                </Card>
+                <Card>
+                    <CardImage src={bright_img} alt="Bright" />
+                    <CardBlock title="Bright" text="An Augmented Reality project at MIT Media Lab Reality Virtually Hackathon for the Microsoft Hololens to increase accessbility for the vision impaired through an audio interface with Facial Recognition, OCR, and text overlay.">
+                        <CardButton title="Read More" type="btn-primary" link="https://www.bostonglobe.com/business/2019/01/24/they-trying-make-virtual-reality-more-useful/5v7IdeXjosONF9gQE0HJfJ/story.html#comments" />
+                    </CardBlock>
+                </Card>
+                <Card>
+                    <CardImage src={bridgestone_img} alt="Bridgestone" />
+                    <CardBlock title="Bridgestone" text="I built a Unity freelance project with Augmented Reality instruction app for Bridgestone Tires Assembly Line.">
+                        <CardButton title="Learn More" type="btn-primary" link="" />
+                    </CardBlock>
+                </Card>
+                <Card>
+                    <CardImage src={foxy_img} alt="Foxy Vacations" />
+                    <CardBlock title="" text="A web freelance project I completed building a vacation rental management platform similar to Airbnb for direct website rentals.">
+                        <CardButton title="Learn More" type="btn-primary" link="https://foxyvacations.com" />
+                    </CardBlock>
+                </Card>
+                <Card>
                     <CardImage src={pcb_img} alt="Pensacola Beach Casa" />
                     <CardBlock title="Pensacola Beach Casa" text="A web freelance project I completed redesigning the webpage for a beach town home.">
                         <CardButton title="Learn More" type="btn-primary" link="http://34.226.194.6" />
+                    </CardBlock>
+                </Card>
+                <Card>
+                    <CardImage src={sophthrive_img} alt="Presentation Logo" />
+                    <CardBlock title="Design Consulting for Princeton Administration" text="Goal: Reduce Stigma at Princeton. Redesigned the sophomore experience to better inform and guide Princeton students throughout the rest of their Princeton experience.">
+                        <CardButton title="See The Presentation" type="btn-primary" link="https://drive.google.com/file/d/0B7liA7zyqDeVTXhnaFBCR2l2Ym8/view?usp=sharing" />
                     </CardBlock>
                 </Card>
                 <Card>
@@ -96,12 +130,6 @@ const Projects = () => {
                     <CardImage src={loco_img} alt="Loco Logo" />
                     <CardBlock title="Loco" text="An iOS app using Computer Vision and Facial Recognition to exchange contact information with someone by taking a selfie to help you remember them.">
                         <CardButton title="Learn More" type="btn-primary" link="https://www.go-loco.com/" />
-                    </CardBlock>
-                </Card>
-                <Card>
-                    <CardImage src={sophthrive_img} alt="Presentation Logo" />
-                    <CardBlock title="Design Consulting for Princeton Administration" text="Goal: Reduce Stigma at Princeton. Redesigned the sophomore experience to better inform and guide Princeton students throughout the rest of their Princeton experience.">
-                        <CardButton title="See The Presentation" type="btn-primary" link="https://drive.google.com/file/d/0B7liA7zyqDeVTXhnaFBCR2l2Ym8/view?usp=sharing" />
                     </CardBlock>
                 </Card>
                 <Card>
