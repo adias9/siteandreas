@@ -93,7 +93,6 @@ const Projects = () => {
                 <Card>
                     <CardImage src={bridgestone_img} alt="Bridgestone" />
                     <CardBlock title="Bridgestone" text="I built a Unity freelance project with Augmented Reality instruction app for Bridgestone Tires Assembly Line.">
-                        <CardButton title="Learn More" type="btn-primary" link="" />
                     </CardBlock>
                 </Card>
                 <Card>

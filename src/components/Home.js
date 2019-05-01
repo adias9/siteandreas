@@ -12,7 +12,7 @@ const Home = () => (
                 <p><a href="mailto:andreasdias9@gmail.com" target="_blank" rel='noopener noreferrer'>email</a></p>
                 <p><a href="https://github.com/adias9" target="_blank" rel='noopener noreferrer'>github</a></p>
                 <p><a href="https://linkedin.com/in/andreas-dias/" target="_blank" rel='noopener noreferrer'>linkedin</a></p>
-                <p><a href={pdf}>resume</a></p>
+                {/*<p><a href={pdf}>resume</a></p>*/}
             </div>
         </div>
         <VRScene/>
